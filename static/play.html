@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Mood Sense</title>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="static/js/genres.js"></script>
+    <script src="static/js/utils.js"></script>
+    <script src="static/js/sketch.min.js"></script>
+    <script src="static/js/pills.js"></script>
+    <script src="static/js/Chart.js"></script>
+    <script src="static/js/play.js"></script>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <img src="static/img/moodsense.png" alt="DeepSound" id="logo" class="logo-big">
+    <div id="container">
+        <div id="pills"></div>
+        <div id="piechart-container">
+            <canvas id="piechart" height="200" width="150"></canvas>
+            <div id="legend">
+                <ul>
+                    <li><span style="background: #0033cc;"></span> Feel good</li>
+                    <li><span style="background: #6600ff;"></span> Sleepy</li>
+                    <li><span style="background: #cc6600;"></span> Depression</li>
+                    <li><span style="background: #ff66cc;"></span> Refreshing</li>
+                    <li><span style="background: #660066;"></span> Anger-Violence</li>
+                    <li><span style="background: #cccc00;"></span> Relaxing</li>
+                    <li><span style="background: #999966;"></span> Negative</li>
+                    <li><span style="background: #00cc66;"></span> Positive</li>
+                    <li><span style="background: #ffcc66;"></span> Chill</li>
+                    <li><span style="background: #cc0000;"></span> Energetic</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
